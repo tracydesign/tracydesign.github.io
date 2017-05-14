@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 17px;
+	line-height: 1.4;
+	
+}
+
+header {
+	background: url("../images/keyboard copy.jpg");
+	background-size: cover;
+	padding: 30px;
+	text-align: center;
+	height: 600px;
+	border-bottom: solid 2px #FFFFFF;
+	
+	}
+
+nav a {
+	color: #0C0032;
+	background: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+section {
+	background: #7395AE;
+	padding: 25px 20px 25px 20px;
+	border-bottom: solid 2px #0C0032;
+}
+
+
+ul li {
+	list-style: none;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 70px;
+	font-family: 'Coda Caption', sans-serif;
+	margin-top: 100px;
+}
+
+h2 {
+	color: #0C0032;
+	font-family: 'Coda Caption', sans-serif;
+
+}
+
+p ,li, a {
+	font-family: 'Raleway', sans-serif;
+}
+
+main {
+padding: 0px 20px 25px 20px;	
+margin-top: 20px;
+}
+
+main img {
+	border: 1px solid #ccc;
+	margin: 20px;
+}
+
+footer {
+	background: #B1A296;
+	padding: 25px 20px 25px 20px;
+	text-align: center;
+}
+
+#head{
+	color: #ffffff;
+	
+}
+
+
+
+
