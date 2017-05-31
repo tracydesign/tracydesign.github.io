@@ -1,0 +1,166 @@
+ @import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 1.2em;
+	line-height: 1.5;
+	/*background: #e5e4e0;*/
+	}
+
+header {
+	/*background: url("../images/keyboard copy.jpg");
+	background-size: cover;*/
+	background:#FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	height: 400px;
+	
+	}
+
+nav {
+	background: ##E8C66A;
+	border: 1px black solid;
+}
+
+nav a {
+	color: #fff;
+	font-weight: bold;
+	background: #E8C66A;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+div{
+	padding: 30px 30px;
+	width:40em;
+	margin: 1em auto;
+	background: #FFC675;
+	border: 1px black solid;
+	}
+
+main {
+	/*background: #e5e4e0;*/
+	width: 56.25em;
+	margin: auto;
+}
+
+footer {
+	background: #FF957E;
+	border: 1px black solid;
+	color: #ffa31a;
+	padding: 25px 20px 25px 20px;
+	text-align: center;
+	height: 100px;
+}
+
+
+ul li {
+	list-style: none;
+	color: #aac1a2;
+}
+
+ a {
+	text-decoration: none;
+	color: #ffa31a;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: #fff;
+	font-size: 4.375em;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 2em;
+}
+
+h2  {
+	color: #ffa31a;
+	font-size: 1.875em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	font-size: 1.375em;
+	font-family: 'Open Sans', sans-serif;
+	color: #aac1a2;
+}
+
+p, li {
+	font-family: 'Oswald', sans-serif;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background: #ffa31a;
+	margin-bottom: 0.5em;
+}
+
+
+img {
+	width:100%;
+}
+
+main img {
+	border: 1px solid #ccc;
+	}
+
+#head{
+	color: #fff;
+	margin-bottom: 2em;
+	}
+
+#wrapper{
+	background: #E89C6C;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery {
+	width:40em;
+	margin: 1em auto;
+	background: #FFE2B8;
+	border: 1px black solid;
+	padding: 30px 30px;
+}	
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
