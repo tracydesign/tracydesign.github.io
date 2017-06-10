@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+	font-size: 1em;
+	line-height: 1.5;
+	}
+
+header {
+	background: url("../images/web-header.jpg");
+	background-size: cover;
+	padding: 25px;
+	text-align: left;
+	height: 400px;
+	width: 1150px;
+	margin: auto;
+}
+
+nav {
+	background: #000;
+	width: 50%;
+	}
+
+nav a {
+	color: #fff;
+	font-weight: bold;
+	background: #000;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+
+aside {
+   padding: 20px;
+    float: left;
+    width: 20%;
+	float: right;
+}
+
+main {
+	
+	width: 1200px;
+	margin: auto;
+}
+
+footer {
+	background: #000;
+	color: #ffa31a;
+	padding: 25px 20px 25px 20px;
+	text-align: center;
+	height: 100px;
+	clear: both;
+}
+
+
+ul li {
+	list-style: none;
+	color: #aac1a2;
+}
+
+ a {
+	text-decoration: none;
+	color: #ffa31a;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: #fff;
+	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+h2  {
+	color: #ffa31a;
+	font-size: 1.875em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.375em;
+	font-family: 'Open Sans', sans-serif;
+	color: #aac1a2;
+}
+
+p, li {
+	font-family: 'Oswald', sans-serif;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background: #ffa31a;
+	margin-bottom: 0.5em;
+}
+
+
+img {
+	width:100%;
+}
+
+main img {
+	border: 1px solid #ccc;
+	}
+
+#head{
+	color: #fff;
+	margin-bottom: 2em;
+	}
+
+#wrapper{
+	width: 1200px;
+	margin: auto;
+}
+
+.gallery {
+    padding: 20px;
+    float: right;
+    width: 72%;
+	float: left;
+}	
+
+/*#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
